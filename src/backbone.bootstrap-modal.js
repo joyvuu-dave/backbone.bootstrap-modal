@@ -94,7 +94,6 @@
      * @param {String} [options.okText]       Text for the OK button. Default: 'OK'
      * @param {String} [options.cancelText]   Text for the cancel button. Default: 'Cancel'. If passed a falsey value, the button will be removed
      * @param {Boolean} [options.allowCancel  Whether the modal can be closed, other than by pressing OK. Default: true
-     * @param {Boolean} [options.escape]      Whether the 'esc' key can dismiss the modal. Default: true, but false if options.cancellable is true
      * @param {Boolean} [options.animate]     Whether to animate in/out. Default: false
      * @param {Function} [options.template]   Compiled underscore template to override the default one
      */
@@ -106,7 +105,6 @@
         okCloses: true,
         cancelText: 'Cancel',
         allowCancel: true,
-        escape: true,
         animate: false,
         template: template
       }, options);
