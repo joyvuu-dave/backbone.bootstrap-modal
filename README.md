@@ -57,7 +57,6 @@ Set up the modal with the following options:
 - {Boolean} [options.okCloses]    Wether the modal should close on 'OK' click or not. Default: true
 - {String} [options.cancelText]   Text for the cancel button. Default: 'Cancel'. If passed a falsey value, the button will be removed
 - {Boolean} [options.allowCancel] Whether the modal can be closed, other than - OK. Default: true
-- {Boolean} [options.escape]      Whether the 'esc' key can dismiss the modal- true, but false if options.cancellable is true
 - {Boolean} [options.animate]     Whether to animate in/out. Default: false
 - {Function} [options.template]   Compiled underscore template to override the default one
 - {Object} [options.modalOptions] Options to pass directly to bootstrap-modal
