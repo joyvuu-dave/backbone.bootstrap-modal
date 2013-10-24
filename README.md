@@ -34,7 +34,7 @@ You can listen to the events triggered by the modal inside the Backbone.View
 
     var view = new Backbone.View({
         initialize: function () {
-            this.bind("ok", okClicked);
+            this.bind("ok", this.okClicked);
         },
 
         okClicked: function (modal) {
